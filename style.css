@@ -1,0 +1,88 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    font-weight: 1em;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: #f0f0f0;
+    align-items: center;
+    padding: 10px 0;
+}
+.menu img {
+    width: 20%;
+    height: 20%;
+}
+#nav-bar ul {
+    display: inline-flex;
+    margin-right: 1.5rem;
+}
+#nav-bar li {
+    margin-right: 1rem;
+}
+#nav-bar li a {
+    text-decoration: none;
+    color: #000
+}
+#nav-bar li a:hover {
+    text-decoration: underline;
+}
+#title {
+    padding:10% 0;
+    text-align: center;
+}
+#title h1 {
+    margin-bottom: 1rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+#email {
+    margin-bottom: 1rem;
+    width: 20%;
+}
+#submit {
+    width: 10%;
+    padding: .35rem 1.2rem;
+    background: rgb(240, 183, 77);
+    border: 0;
+    font-weight: 700;    
+    font-size: 14px;
+    border-radius: 4px;
+}
+#submit:hover {
+    background: orange;
+}
+
+.myicon {
+    display: flex;
+	justify-content: flex-end;
+	height: 2em;
+    font-size: 35px;
+    margin-right: 1rem;
+    margin-top: 20px;
+    color: darkorange;
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+#feature h2, #feature p {
+    line-height: 1.5;
+}
+.grid {
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+}
+
+
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color: blue;
+  }
+}
