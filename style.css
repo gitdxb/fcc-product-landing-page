@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     font-weight: 1em;
+    background: #f0f0f09d;
 }
 
 .menu {
@@ -70,19 +71,95 @@ h2 {
     font-size: 20px;
     font-weight: bold;
 }
+#feature {
+    width: 100%;
+}
 #feature h2, #feature p {
     line-height: 1.5;
+    width: 100%;
 }
 .grid {
-    width: 800px;
+    width: 70%;
     margin: 10px auto;
     display: flex;
 }
+#work {
+    text-align: center;
+    margin-top: 2.5rem;
+    width: 100%;
+}
+#pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.price-box {
+    margin: 0 20px;
+    border: 0.5px solid #2d2e3a;
+    border-radius: 3px;
+    text-align: center;
+    width: 17em;
+    height: 19em;
+}
+.price-box h3 {
+    padding: 10px 0;
+    background: #b5b6b8;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+}
+.price-box span {
+    font-weight: bold;
+    line-height: 2.5;
+    font-size: 25px;
+}
+.price-box ul li {
+    line-height: 2;
+}
+.price-box button {
+    padding: 0.5em 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: rgb(240, 183, 77);
+    border: 0;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+.price-box button:hover {
+    background: orange;
+}
+footer {
+    text-align: right;
+    padding: 0.5rem 0;
+    border-top: 1px solid #6a6c8149;
+}
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+footer ul li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 
-
-
-@media screen and (max-width: 450px) {
-  body {
-    background-color: blue;
-  }
+@media screen and (max-width: 800px) {
+#pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.price-box {
+       margin-top: 15px;
+}
+#video {
+    width: 90%;
+}
+#submit {
+    width: 30%;
+}
+#email {
+    width: 40%;
+}
 }
